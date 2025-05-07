@@ -94,7 +94,7 @@ spec:
         defaultValue: []
         connections:
           - source:
-              source: github.com/terraform-google-modules/terraform-google-bigquery
+              source: github.com/amrkk123/terraform-google-bigquery
               version: ">= 10.1.0"
             spec:
               outputExpr: "{ \"name\": table_ids[0], \"table\": \"${project}:${env_vars.BIGQUERY_DATASET}.${table_ids[0]}\"}"
